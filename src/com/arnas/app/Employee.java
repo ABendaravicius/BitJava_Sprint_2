@@ -25,4 +25,9 @@ public class Employee extends Person {
     public void setWorkingYears(double workingYears) {
         this.workingYears = workingYears;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", position: " + position + ", working here for: " + workingYears;
+    }
 }

@@ -25,4 +25,9 @@ public class Visitor extends Person {
     public void setVisitDurationMin(int visitDurationMin) {
         this.visitDurationMin = visitDurationMin;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", intent of visit: " + visitIntent + ", visiting here for: " + visitDurationMin;
+    }
 }
