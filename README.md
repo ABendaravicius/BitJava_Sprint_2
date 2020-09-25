@@ -5,7 +5,7 @@
 ## OBJECT-BASED FILE READING AND WRITING JAVA PROGRAM
 
 ### THE TASK:
-To create a object-oriented program, that would store data into a file, read the data from the file and print it into the CLI.
+To create an object-oriented program, that would store data into a file, read the data from the file and print it into the CLI.
 
 ### HOW IT WORKS:
 The program consists of several methods, that are called through a switch block, that checks the value of the user input and then calls the according method.
